@@ -1,6 +1,6 @@
 ---
 title: "Who does more pushups"
-author: "your name"
+author: "McKayla Witt"
 date: "March 8"
 output: html_document
 ---
@@ -26,7 +26,7 @@ Among other things, the students recorded the type of position a player had on t
 
 Line players are on the offensive or defensive line.  They need to be a certain kind of speed, but they must also be quite big and strong.  Skill players do a lot of runninga and catching:  they are the quarterback, running backs, receivers, etc.
 
-Our Research Question is:
+Our Research Que stion is:
 
   >Who does more pushups, on average: a line player or a skill player?
 
@@ -46,13 +46,35 @@ Our Research Question is:
 ## Graphical Results
 <!--Your graph should have a good title, and axes should be labled as needed.  Discuss your graphical results, showing how they answer the research question.  Use specific features of the graph in your discussion.!-->
 
+```{r}
+
+```
+
 
 ## Numerical Results
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 
+```{r}
+pushups_skill <- c(46, 38, 31, 23, 32, 18, 52, 27, 40, 58, 47, 108, 62, 56, 92, 50, 88, 31, 30, 68, 49, 48)
+pushups_line <- c(8, 6, 32, 11, 12, 17, 24, 25)
+
+
+mean(pushups_skill) 
+mean(pushups_line)
+
+average_pushups_skill <- mean(pushups_skill)
+average_pushups_line <- mean(pushups_line)
+
+
+average_pushups_skill > average_pushups_line
+```
+
+
 # Inferential Results
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
+
+
 
 
 # Discussion and Conclusion
