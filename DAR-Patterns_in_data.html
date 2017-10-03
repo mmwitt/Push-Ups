@@ -179,6 +179,19 @@ average_pushups_line &lt;- mean(pushups_line)
 
 average_pushups_skill &gt; average_pushups_line</code></pre>
 <pre><code>## [1] TRUE</code></pre>
+<pre class="r"><code>t.test(pushups~position, data=pushups)</code></pre>
+<pre><code>## pushups ~ position</code></pre>
+<pre><code>## 
+##  Welch Two Sample t-test
+## 
+## data:  pushups by position
+## t = -5.4341, df = 27.079, p-value = 9.421e-06
+## alternative hypothesis: true difference in means is not equal to 0
+## 95 percent confidence interval:
+##  -44.91068 -20.29387
+## sample estimates:
+##  mean in group LINE mean in group SKILL 
+##            17.12500            49.72727</code></pre>
 </div>
 </div>
 <div id="inferential-results" class="section level1">
