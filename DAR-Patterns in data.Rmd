@@ -35,11 +35,11 @@ Our Research Que stion is:
 <!--Decide on your methods:  use "variable analysis" or other appropriate descriptors.  Make sure to choose at least one graphical method and at least one numerical method.!-->
 
 To fully analyze the data provided by Georgetown, the graphical results will contain a scatterplot displaying the weight and amount of pushups achieved by each player. From there the scatter plot will be color-coordinated to reflect the players' position on the football team.
+To centralize the data we are analyzing, specifically the average pushups completed by players based on whether they play as a "LINE" or "SKILL", I will create a box plot.
 
 The numerical results will be re-orgainized into "pushups_skill" and "pushups_line". Then the data will be computed to find the mean of each data set. These results will be renamed to "average_pushups_skill" and "average_pushups_line" respectively. The afformentioned vectors will then be compared. 
 To verify that my initial work is correct, I will run the orginal Georgetown data set through a t.test.
 
-The inferential results will  be show cased in a box plot. 
 
 # Results
 <!--You have both graphical and numerical methods, so you will have both graphical and numerical results to consider.!-->
