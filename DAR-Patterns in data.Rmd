@@ -83,6 +83,9 @@ average_pushups_line <- mean(pushups_line)
 average_pushups_skill > average_pushups_line
 ```
 
+```{r}
+t.test(pushups~position, data=pushups)
+```
 
 
 
